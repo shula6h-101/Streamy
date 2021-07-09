@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export default axios.create({
-    baseURL: 'http://localhost:3001'
+    baseURL: 'https://streamy-api-sp.herokuapp.com/'
 });
